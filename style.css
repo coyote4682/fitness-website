@@ -20,12 +20,11 @@ body {
   justify-content: space-between;
   height: 95px;
   padding: 0 50px;
-  background: #2c3e50;
+
   color: #21262c;
 }
 
 .navbar h2 {
-  color: var(--primary);
   font-weight: 900;
   font-size: 30px;
 }
@@ -40,8 +39,8 @@ body {
 }
 
 .navbar li a {
-  color: #ecf0f1;
   font-size: 14px;
+
   margin-right: 30px;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -64,23 +63,6 @@ body {
   color: var(--primary);
   transform: scale(1);
   transition: 0.3s ease;
-}
-
-.patotoya {
-  background: #e74c3c;
-  color: #fff;
-  padding: 7px 20px;
-  border: none;
-  margin: 13px;
-  font-size: 13px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-out, transform 0.3s ease-out;
-}
-
-.patotoya:hover {
-  transform: scale(0.9);
-  transition: 0.2s ease;
 }
 
 .main {
