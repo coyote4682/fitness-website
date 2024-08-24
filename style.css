@@ -9,35 +9,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  height: 100vh;
-  background: #f0f4f8;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 95px;
-  padding: 0 50px;
-
-  color: #21262c;
-}
-
-.navbar h2 {
-  font-weight: 900;
-  font-size: 30px;
-}
-
-.navbar ul {
-  margin-left: 150px;
-  display: flex;
-}
-
-.navbar li {
-  list-style: none;
-}
-
 .navbar li a {
   font-size: 14px;
 
@@ -48,21 +19,6 @@ body {
 
 .navbar ul li:hover a {
   color: var(--primary);
-}
-
-.search-button {
-  margin-left: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: white;
-  font-size: 20px;
-}
-
-.search-button:hover {
-  color: var(--primary);
-  transform: scale(1);
-  transition: 0.3s ease;
 }
 
 .main {
