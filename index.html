@@ -13,50 +13,44 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <script src="./index.js"></script>
     <title>Grabe Solid</title>
   </head>
   <body class="bg-slate-50">
     <header class="bg-slate-50">
       <div
-        class="navbar flex items-center justify-between h-[95px] px-[5px] text-gray-800"
+        class="flex items-center justify-between h-[95px] px-[5px] text-gray-800"
       >
-        <h2 class="text-gray-800 font-bold ml-10 font-extrabold text-3xl">
+        <h2
+          class="text-gray-800 font-bold ml-4 sm:ml-10 text-xl sm:text-2xl lg:text-3xl"
+        >
           Otin Logo Soon
         </h2>
-        <ul class="text-gray-800 font-semibold flex space-x-2 ml-8">
-          <li>
-            <a href="" class="text-sm hover:text-red-600 transition-colors"
-              >HOME</a
-            >
-          </li>
-          <li>
-            <a
-              href="./about.html"
-              class="text-sm hover:text-red-600 transition-colors"
-              >ABOUT</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-sm hover:text-red-600 transition-colors"
-              >SUPPLEMENTS</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-sm hover:text-red-600 transition-colors"
-              >MEAL PLAN</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-sm hover:text-red-600 transition-colors"
-              >TRAINING PROGRAMS</a
-            >
-          </li>
-          <li>
-            <a href="" class="text-sm hover:text-red-600 transition-colors"
-              >CONTACT</a
-            >
-          </li>
-        </ul>
+
+        <nav
+          class="text-gray-800 font-semibold flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-6 lg:space-x-8 ml-4 sm:ml-8"
+        >
+          <a href="" class="text-sm hover:text-red-600 transition-colors"
+            >HOME</a
+          >
+          <a
+            href="./about.html"
+            class="text-sm hover:text-red-600 transition-colors"
+            >ABOUT</a
+          >
+          <a href="#" class="text-sm hover:text-red-600 transition-colors"
+            >SUPPLEMENTS</a
+          >
+          <a href="#" class="text-sm hover:text-red-600 transition-colors"
+            >MEAL PLAN</a
+          >
+          <a href="#" class="text-sm hover:text-red-600 transition-colors"
+            >TRAINING PROGRAMS</a
+          >
+          <a href="#" class="text-sm hover:text-red-600 transition-colors"
+            >CONTACT</a
+          >
+        </nav>
 
         <button
           class="cart-icon text-gray-800 px-0 hover:blue-700 hover:text-rose-500 transition-colors mr-8"
@@ -66,31 +60,51 @@
       </div>
     </header>
 
-    <section
-      class="main my-20 bg-slate-50 px-4 md:px-8 lg:px-16 flex flex-col items-start"
-    >
+    <section class="main my-20 mt-60 ml-10 bg-slate-50 px-4">
       <h3 text class="font-serif text-5xl font-medium">Science-Based</h3>
       <p class="text-8xl font-serif font-bold">WORKOUT</p>
 
       <button
-        class="reg-btn font-serif font-bold text-white mt-7 px-5 py-3 bg-slate-700 rounded-3xl hover:bg-red-600 hover:scale-105 transition-all duration-300 ease-in-out"
+        class="reg-btn font-serif font-bold text-white mt-7 px-5 py-3 bg-slate-700 rounded-3xl hover:bg-rose-500 hover:scale-105 transition-all duration-300 ease-in-out"
       >
         Register Now!
       </button>
 
-      <div class="mt-20 text-center font-mono">
+      <div class="mt-7">
+        <button><i class="fa-brands fa-facebook"></i></button>
+        <button><i class="fa-brands fa-twitter"></i></button>
+        <button><i class="fa-brands fa-instagram"></i></button>
+      </div>
+
+      <div class="mt-60 text-center font-mono">
         "Fuck them dogshits doing half reps" - Shan
       </div>
 
-      <div class="container">
-        <p class="mt-60">RECOMMENDED PROGRAMS</p>
-        <ul>
+      <div>
+        <h2 class="mt-60">RECOMMENDED PROGRAMS</h2>
+        <p>Choose a Program that Suits Your Lifestyle</p>
+
+        <ul class="text-bold">
+          <li>6 DAYS SPLIT</li>
+          <p></p>
+          <li>5 DAYS SPLIT</li>
+          <li>3 DAYS</li>
           <li></li>
         </ul>
+      </div>
+      <div class="mt-60">
+        <h2>BMR Calculator</h2>
+        <p>Start Tracking Your Calorie Now!</p>
       </div>
       <!-- to add: bg pic, logo, search bar, and workout pics -->
       <!-- to add: drop down side bar (left side) -->
       <!-- to fix: hover button: color and transition  -->
     </section>
+    <footer class="mt-60 text-center text-sm">
+      <h4>
+        <i class="fa-regular fa-copyright"></i>
+        <span>Shan Fitness. All Rights Reserved</span>
+      </h4>
+    </footer>
   </body>
 </html>
