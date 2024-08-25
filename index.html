@@ -28,7 +28,7 @@
         </h2>
 
         <nav
-          class="text-gray-800 font-semibold flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-6 lg:space-x-8 ml-4 sm:ml-8"
+          class="text-gray-800 font-semibold flex-col sm:flex-row hidden sm:flex space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-6 lg:space-x-8 ml-4 sm:ml-8"
         >
           <a href="" class="text-sm hover:text-red-600 transition-colors"
             >HOME</a
@@ -53,14 +53,17 @@
         </nav>
 
         <button
-          class="cart-icon text-gray-800 px-0 hover:blue-700 hover:text-rose-500 transition-colors mr-8"
+          class="cart-icon text-gray-800 px-0 hover:blue-700 hover:text-rose-500 transition-colors mr-8 hidden lg:inline-block"
         >
           <i class="fa-solid fa-cart-shopping"></i>
         </button>
       </div>
+      <div>
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </header>
 
-    <section class="main my-20 mt-60 ml-10 bg-slate-50 px-4">
+    <main class="main my-20 mt-60 ml-10 bg-slate-50 px-4">
       <h3 text class="font-serif text-5xl font-medium">Science-Based</h3>
       <p class="text-8xl font-serif font-bold">WORKOUT</p>
 
@@ -77,21 +80,22 @@
       </div>
 
       <div class="mt-60 text-center font-mono">
-        "Fuck them dogshits doing half reps" - Shan
+        <h3>Transformations and Testimonies</h3>
+
+        <p>"Fuck them dogshits doing half reps" - Shan</p>
       </div>
 
-      <div>
-        <h2 class="mt-60">RECOMMENDED PROGRAMS</h2>
-        <p>Choose a Program that Suits Your Lifestyle</p>
-
-        <ul class="text-bold">
-          <li>6 DAYS SPLIT</li>
-          <p></p>
-          <li>5 DAYS SPLIT</li>
-          <li>3 DAYS</li>
-          <li></li>
-        </ul>
+      <div class="mt-60 ml-16">
+        <h2 class="text-lg text-slate-700 font-bold">RECOMMENDED PROGRAMS</h2>
+        <p>Choose A Program That Suits Your Lifestyle</p>
       </div>
+
+      <div class="flex flex-row space-x-5 size-6/12 mx-auto">
+        <div><img src="images/prog1.jpg" alt="" /></div>
+        <div><img src="images/prog2.jpg" alt="" /></div>
+        <div><img src="images/prog3.jpg" alt="" /></div>
+      </div>
+
       <div class="mt-60">
         <h2>BMR Calculator</h2>
         <p>Start Tracking Your Calorie Now!</p>
@@ -99,11 +103,12 @@
       <!-- to add: bg pic, logo, search bar, and workout pics -->
       <!-- to add: drop down side bar (left side) -->
       <!-- to fix: hover button: color and transition  -->
-    </section>
-    <footer class="mt-60 text-center text-sm">
+    </main>
+
+    <footer class="mt-60 text-center">
       <h4>
         <i class="fa-regular fa-copyright"></i>
-        <span>Shan Fitness. All Rights Reserved</span>
+        <span class="text-sm">Shan Fitness. All Rights Reserved.</span>
       </h4>
     </footer>
   </body>
