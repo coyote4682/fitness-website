@@ -8,32 +8,140 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="./index.js"></script>
     <title>Grabe Solid</title>
   </head>
-  <body>
-    <div class="navbar">
-      <h2>Boaks Fitness</h2>
-      <ul>
-        <li><a href="">HOME</a></li>
-        <li><a href="">ABOUT</a></li>
-        <li><a href="">SUPPLEMENTS</a></li>
-        <li><a href="">TRAINING PROGRAMS</a></li>
-        <li>
-          <button class="search-button">
-            <i class="bx bx-search"></i>
-          </button>
-        </li>
-      </ul>
+  <body class="bg-slate-50">
+    <header class="bg-slate-50">
+      <div
+        class="flex items-center justify-between h-[95px] px-[5px] text-gray-800"
+      >
+        <h2
+          class="text-gray-800 font-bold ml-4 sm:ml-10 text-xl sm:text-2xl lg:text-3xl"
+        >
+          Otin Logo Soon
+        </h2>
 
-      <div></div>
+        <nav
+          class="text-gray-800 font-semibold flex-col sm:flex-row hidden sm:flex space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-6 lg:space-x-8 ml-4 sm:ml-8"
+        >
+          <a href="" class="text-sm hover:text-cyan-700 transition-colors"
+            >HOME</a
+          >
+          <a
+            href="./about.html"
+            class="text-sm hover:text-cyan-600 transition-colors"
+            >ABOUT</a
+          >
+          <a href="#" class="text-sm hover:text-cyan-700 transition-colors"
+            >SUPPLEMENTS</a
+          >
+          <a href="#" class="text-sm hover:text-cyan-700 transition-colors"
+            >MEAL PLAN</a
+          >
+          <a href="#" class="text-sm hover:text-cyan-700 transition-colors"
+            >TRAINING PROGRAMS</a
+          >
+          <a href="#" class="text-sm hover:text-cyan-700 transition-colors"
+            >CONTACT</a
+          >
+        </nav>
 
-      <button class="patotoya">REGISTER NOW</button>
-    </div>
+        <button
+          class="cart-icon text-gray-800 px-0 hover:blue-700 hover:text-cyan-700 transition-colors mr-8 hidden lg:inline-block"
+        >
+          <i class="fa-solid fa-cart-shopping text-[1.1rem]"></i>
+        </button>
+      </div>
+      <div>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
 
-    <section class="main">
-      <p>Nagngangawngaw grabe solid</p>
+    <main class="my-20 mt-48 ml-20 bg-slate-50 px-4">
+      <div>
+        <h3 text class="font-serif text-5xl font-medium">Science-Based</h3>
+        <p class="text-8xl font-serif font-bold">WORKOUT</p>
+      </div>
 
-      <p>unsanamane</p>
-    </section>
+      <button
+        class="font-serif font-bold text-white mt-11 px-5 py-3 bg-slate-700 rounded-3xl hover:bg-cyan-700 hover:scale-105 transition-all duration-300 ease-in-out"
+      >
+        Register Now!
+      </button>
+
+      <div class="mt-16 ml-2 space-x-8 flex flex-row">
+        <button class="hover:scale-105 transition-all duration-300 ease-in-out">
+          <i class="fa-brands fa-facebook text-[1.5rem]"></i>
+        </button>
+        <button class="hover:scale-105 transition-all duration-300 ease-in-out">
+          <i class="fa-brands fa-twitter text-[1.5rem]"></i>
+        </button>
+        <button class="hover:scale-105 transition-all duration-300 ease-in-out">
+          <i class="fa-brands fa-instagram text-[1.5rem]"></i>
+        </button>
+        <button class="hover:scale-105 transition-all duration-300 ease-in-out">
+          <i class="fa-brands fa-youtube text-[1.5rem]"></i>
+        </button>
+      </div>
+
+      <div class="mt-60 text-center font-mono">
+        <h3>Transformations and Testimonies</h3>
+
+        <p>"Fuck them dogshits doing half reps" - Shan</p>
+      </div>
+
+      <div class="mt-60 ml-16">
+        <article class="text-balance">
+          <h2 class="text-lg text-slate-700 font-bold">RECOMMENDED PROGRAMS</h2>
+          <p>Choose A Program That Suits Your Lifestyle</p>
+
+          <p class="max-w-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolor
+            numquam reiciendis, possimus optio vitae. Hic aliquam impedit
+            explicabo at magnam sed.
+          </p>
+        </article>
+      </div>
+
+      <div class="flex space-x-8 flex-row mt-12">
+        <div>
+          <img src="images/prog1.jpg" alt="" class="w-50 h-80 object-cover" />
+          <h3>HIIT (HIGH INTENSITY INTERVAL TRAINING)</h3>
+        </div>
+        <div>
+          <img src="images/prog2.jpg" alt="" class="w-50 h-80 object-cover" />
+          <h3>SPORTS SPECIFIC TRAIING</h3>
+        </div>
+        <div>
+          <img src="images/prog3.jpg" alt="" class="w-50 h-80 object-cover" />
+          <h3>CLASSIC PUSH PULL LEGS PROGRAM</h3>
+        </div>
+        <div>
+          <img src="images/prog4.jpeg" alt="" class="w-50 h-80 object-cover" />
+          <h3>HIIT (High Intensity Interval Training)</h3>
+        </div>
+      </div>
+
+      <div class="mt-60">
+        <h2>BMR Calculator</h2>
+        <p>Start Tracking Your Calorie Now!</p>
+      </div>
+      <!-- to add: bg pic, logo, search bar, and workout pics -->
+      <!-- to add: drop down side bar (left side) -->
+      <!-- to fix: hover button: color and transition  -->
+    </main>
+
+    <footer class="mt-60 text-center">
+      <h4>
+        <i class="fa-regular fa-copyright"></i>
+        <span class="text-sm">Shan Fitness. All Rights Reserved.</span>
+      </h4>
+    </footer>
   </body>
 </html>
